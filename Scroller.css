@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f1f1;
+  min-height: 4000px;
+  .scroller {
+    background-color: #a214f1;
+    width: 0px;
+    height: 5px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+  }
+  .Welcome {
+    top: 50%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 800;
+    font-size: x-large;
+  }
+}
